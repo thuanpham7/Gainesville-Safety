@@ -3,6 +3,7 @@ import { storeToRefs } from 'pinia'
 import { useUserStore } from '../stores/user'
 
 import Button from 'primevue/button'
+import LoginView from './authentication/LoginView.vue';
 import DashboardLogin from '../components/dashboard/DashboardLogin.vue';
 
 const { currentUser } = storeToRefs(useUserStore())
@@ -20,6 +21,7 @@ const { currentUser } = storeToRefs(useUserStore())
         <p class="mb-1">Welcome to GainesvilleSafetyMaps</p>
         <p class="mb-3">Log in with your email to continue</p>
         <Button class="text-white" label="Log in" size="small"><a href="/login">Login</a></Button>
+        <login-view />
       </div>
     </div>
   </div>
