@@ -1,4 +1,4 @@
-# Gainesville Safe Intro
+# Gainesville Safety
 
 The web application allows users from Gainesville, Florida to see criminal incidents from the routes they are taking.
 
